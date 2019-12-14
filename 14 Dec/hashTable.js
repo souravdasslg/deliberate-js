@@ -1,4 +1,4 @@
-class Hashtable {
+class HashTable {
   constructor(arrayLength = 53) {
     this.keyMap = new Array(arrayLength);
   }
@@ -58,4 +58,4 @@ class Hashtable {
     return keys;
   }
 }
-export default Hashtable;
+export default HashTable;
